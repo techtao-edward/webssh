@@ -28,5 +28,5 @@ jobs:
           push: true
           # 自动打上 latest 和具体的 commit hash 标签
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/edwardhubproxy:latest
-            ${{ secrets.DOCKER_USERNAME }}/edwardhubproxy:${{ github.sha }}
+            ${{ secrets.DOCKER_USERNAME }}/edwardwebssh:latest
+            ${{ secrets.DOCKER_USERNAME }}/edwardwebssh:${{ github.sha }}
